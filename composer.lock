@@ -1,61 +1,75 @@
 {
-  "_readme": [
-    "This file locks the dependencies of your project to a known state",
-    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-    "This file is @generated automatically"
-  ],
-  "content-hash": "70ff81c59564e9617fed0bf28f62fad1",
-  "packages": [
-    {
-      "name": "metowolf/meting",
-      "version": "v1.5.7",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/metowolf/Meting.git",
-        "reference": "54178aa112da5db09f487d862d7ae62cbf7bc060"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/metowolf/Meting/zipball/54178aa112da5db09f487d862d7ae62cbf7bc060",
-        "reference": "54178aa112da5db09f487d862d7ae62cbf7bc060",
-        "shasum": ""
-      },
-      "require": {
-        "ext-curl": "*",
-        "ext-openssl": "*",
-        "php": ">=5.4.0"
-      },
-      "suggest": {
-        "ext-bcmath": "Required to use BC Math calculate RSA.",
-        "ext-openssl": "Required to use OpenSSL encrypt params."
-      },
-      "type": "library",
-      "autoload": {
-        "psr-4": {
-          "Metowolf\\": "src/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": ["MIT"],
-      "authors": [
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e1e9b64f2cf5759d83a89cf2c2833fdc",
+    "packages": [
         {
-          "name": "metowolf",
-          "email": "i@i-meto.com",
-          "homepage": "https://i-meto.com"
+            "name": "metowolf/meting",
+            "version": "v1.5.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metowolf/Meting.git",
+                "reference": "a88a1dffca16ae32f20cf009d7b65bfa1e9cdbad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metowolf/Meting/zipball/a88a1dffca16ae32f20cf009d7b65bfa1e9cdbad",
+                "reference": "a88a1dffca16ae32f20cf009d7b65bfa1e9cdbad",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-bcmath": "Required to use BC Math calculate RSA.",
+                "ext-openssl": "Required to use OpenSSL encrypt params."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Metowolf\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "metowolf",
+                    "email": "i@i-meto.com",
+                    "homepage": "https://i-meto.com"
+                }
+            ],
+            "description": "A powerful music API framework to accelerate development.",
+            "homepage": "https://github.com/metowolf/Meting",
+            "keywords": [
+                "lightweight",
+                "lighty",
+                "music api",
+                "php music"
+            ],
+            "support": {
+                "issues": "https://github.com/metowolf/Meting/issues",
+                "source": "https://github.com/metowolf/Meting"
+            },
+            "time": "2021-07-19T11:53:12+00:00"
         }
-      ],
-      "description": "A powerful music API framework to accelerate development.",
-      "homepage": "https://github.com/metowolf/Meting",
-      "keywords": ["lightweight", "lighty", "music api", "php music"],
-      "time": "2019-06-16T05:55:00+00:00"
-    }
-  ],
-  "packages-dev": [],
-  "aliases": [],
-  "minimum-stability": "stable",
-  "stability-flags": [],
-  "prefer-stable": false,
-  "prefer-lowest": false,
-  "platform": [],
-  "platform-dev": []
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.3"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
 }
